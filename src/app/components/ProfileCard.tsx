@@ -1,8 +1,6 @@
-import CardWrapper from "./CardWrapper";
-
 const ProfileCard = () => {
   return (
-    <CardWrapper>
+    <div className="bg-white rounded-3xl shadow-xl overflow-hidden group">
       <div className="bg-blue-500 p-6 pb-14">
         <span className="text-white text-2xl">Profile</span>
       </div>
@@ -12,7 +10,7 @@ const ProfileCard = () => {
             <span className=" text-gray-400 text-sm">Orders</span>
             <span className="font-medium">34</span>
           </div>
-          <div className="h-24 w-24 bg-slate-400 rounded-full" />
+          <div className="h-24 w-24 bg-slate-400 rounded-full group-hover:bg-red-400" />
           <div className="flex flex-col items-center">
             <span className=" text-gray-400 text-sm">Spent</span>
             <span className="font-medium">£900</span>
@@ -23,7 +21,7 @@ const ProfileCard = () => {
           <span className="text-sm text-gray-400">London, United Kingdom</span>
         </div>
       </div>
-    </CardWrapper>
+    </div>
   );
 };
 

@@ -1,9 +1,8 @@
-import CardWrapper from "./CardWrapper";
 import Image from "next/image";
 
 const ProductCard = () => {
   return (
-    <CardWrapper>
+    <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
       <div className="p-10">
         <div className="flex justify-between items-center mb-5">
           <svg
@@ -61,7 +60,7 @@ const ProductCard = () => {
           </div>
         </div>
       </div>
-    </CardWrapper>
+    </div>
   );
 };
 
