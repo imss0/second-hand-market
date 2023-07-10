@@ -16,8 +16,8 @@ export default function Home() {
               <span className="font-medium mt-1 text-gray-900">$95</span>
             </div>
           </div>
-          <div>
-            <div>
+          <div className="flex items-end justify-end space-x-2.5">
+            <div className="flex items-center text-sm text-gray-600 space-x-0.5">
               <svg
                 className="w-4 h-4"
                 fill="none"
@@ -34,7 +34,7 @@ export default function Home() {
               </svg>
               <span>1</span>
             </div>
-            <div>
+            <div className="flex items-center text-sm text-gray-600 space-x-0.5">
               <svg
                 className="w-4 h-4"
                 fill="none"
@@ -54,7 +54,7 @@ export default function Home() {
           </div>
         </div>
       ))}
-      <button>
+      <button className="fixed bottom-16 right-5 bg-orange-400 rounded-full text-white p-4 shadow-lg hover:bg-orange-500 cursor-pointer transition-colors">
         <svg
           className="h-6 w-6"
           xmlns="http://www.w3.org/2000/svg"
